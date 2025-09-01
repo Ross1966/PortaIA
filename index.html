@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Portafolio de Desarrolladora Web</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="logo"><img src="logo.png" alt="logo" width="7%"></div>
+            <nav>
+                <ul class="nav-links">
+                    <li><a href="#about">Sobre mí</a></li>
+                    <li><a href="#projects">Proyectos</a></li>
+                    <li><a href="#contact">Contacto</a></li>
+                </ul>
+                <div class="hamburger" id="hamburger">
+                    &#9776;
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Sección de presentación -->
+  <section id="hero">
+  <div class="container hero-content">
+    <div class="hero-text">
+      <h1>¡Hola! Soy <span>Rosa María</span></h1>
+      <p class="subtitle">Desarrolladora Web Full Stack</p>
+      <div class="hero-buttons">
+        <a href="#projects" class="btn">🚀 Ver mis proyectos</a>
+        <a href="#contact" class="btn secondary">📩 Contáctame</a>
+      </div>
+    </div>
+    <div class="hero-image">
+      <img src="Rosa.png" alt="Rosa María">
+    </div>
+  </div>
+</section>
+
+
+
+    <!-- Sobre mí -->
+    <section id="about">
+        <div class="container">
+            <h2>Sobre mí</h2>
+             <p>Soy <strong> Licenciada en Informática Administrativa </strong> trabajé en la industria petrolera y el sector inmobiliario,
+            tengo pasión por la programación.</p>
+            <br></br>
+            
+           <p> He desarrollado habilidades técnicas y de comunicación, terminé un bootcamp en
+            Laboratoria. Estoy lista para nuevos retos, confiando en mi
+            capacidad para adaptarme y contribuir a cualquier equipo en la
+            creación de productos innovadores y efectivos, destacando la
+            importancia del aprendizaje continuo.</p>
+            <br></br>
+
+            <p> En Laboratoria creamos proyectos de vanguardia con
+            nuevas tecnologías implenmentadas con la metodología scrum
+            utilizando: html, css, javascript, bootstrap, node.js, git, github y
+            react. Pero sobre todo aprendí el método de Aprender a Aprender.
+          </p>
+        </div>
+    </section>
+
+    <!-- Proyectos -->
+    <section id="projects">
+        <div class="container">
+            <h2>Mis Proyectos</h2>
+            <div class="projects-grid">
+                <div class="project-card">
+                    <img src="Trivia.jpg" alt="Trivia" style="width:100%">
+                    <h3>Juego de la Trivia</h3>
+                    <p>Se trata de jugar eligiendo un tema de interés en el cuál debemos seleccionar las respuestas correctas para ser el ganador. Fue creado con HTML, CSS, Javascript y bootstrap version 4.6".</p><br>
+                    <a href="https://ross1966.github.io/Trivia/"class="btn">Ver más</a>
+                </div>
+                <div class="project-card">
+                    <img src="textAnalizer.jpg" alt="Analizador de Texto" style="width:80%">
+                    <h3>Analizador de Texto</h3>
+                    <p>Cuenta cuantas palabras escribimos, caracteres en total, números, suma de números, esto lo hace al momento de ir escribiendo. Creado con HTML, CSS, Javascript, Node.Js, Git y Github.</p><br>
+                    <a href="https://ross1966.github.io/DEV012-Analizador-Texto/" class="btn">Ver más</a>
+                </div>
+                <div class="project-card">
+                    <img src="infoZoo.jpg" alt="Dataverse(Infozoo)" style="width:100%">
+                    <h3>InfoZoo</h3>
+                    <p>Muestra un conjunto de animales los cuales los podemos filtrar por el tipo de dieta y por su hábitat natural. Creado con HTML, CSS, Javascript, Node.Js.</p><br>
+                    <a href="https://ross1966.github.io/DEV012-dataverse-RosaMaIba/" class="btn">Ver más</a>
+                </div>
+                <div class="project-card">
+                    <img src="infoZooChat.png" alt="Dataverse(Chat)" style="width:100%">
+                    <h3>Dataverse(Chat)</h3>
+                    <p>Muestra el conjunto de animales que se pueden filtrar por tipo de dieta y ver la información de cada una de las tarjetas, utilizamos una Api para tener una charla con el animal elegido con IA. Creado con HTML, CSS, Javascript, Node.Js.</p><br>
+                    <a href="https://elegant-alfajores-cab67f.netlify.app/"class="btn">Ver más</a>
+                </div>
+                <!-- Agrega más proyectos si es necesario -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Contacto -->
+    <section id="contact">
+        <div class="container">
+            <h2>Contacto</h2>
+           <form action="#">
+                <input type="text" placeholder="Tu nombre" required>
+                <input type="email" placeholder="Tu correo electrónico" required>
+                <textarea placeholder="Escribe tu mensaje" required></textarea>
+                <button type="submit" class="btn">Enviar mensaje</button>
+            </form>
+
+          
+        
+        </div> <br><br>
+
+        <ul id="contactos">
+            <h2>Sígueme en</h2>
+            <li><a href= "https://www.linkedin.com/in/rosa-mar%C3%ADa-ib%C3%A1%C3%B1ez-ramos-96a4962a1/"> <img src="linke.png" alt="sistemas" style="width:20%"> </a></li>
+            <li><a href="https://github.com/Ross1966"><img src="git.jpg" alt="sistemas" style="width:40%" /></a></li>
+          </ul>   
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2025 Rosa María Ibáñez Ramos.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
