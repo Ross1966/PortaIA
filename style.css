@@ -389,3 +389,87 @@ footer {
   #contactos li { display: block; }
   #contactos a img { width: 45px; }
 }
+
+/* Gracias */
+    body {
+      font-family: Arial, sans-serif;
+      background: #f0f4f8;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      margin: 0;
+      padding: 20px;
+    }
+
+    .gracias-box {
+      background: #fff;
+      padding: 40px;
+      border-radius: 15px;
+      text-align: center;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+      max-width: 500px;
+      width: 100%;
+    }
+
+    h1 {
+      color: #2b7a78;
+      font-size: 2em;
+      margin-bottom: 15px;
+    }
+
+    p {
+      font-size: 1.2em;
+      color: #333;
+      margin-bottom: 25px;
+    }
+
+    a {
+      display: inline-block;
+      margin-top: 10px;
+      padding: 12px 20px;
+      background: #2b7a78;
+      color: white;
+      text-decoration: none;
+      border-radius: 10px;
+      transition: background 0.3s ease;
+      font-size: 1.1em;
+    }
+
+    a:hover {
+      background: #205f5c;
+    }
+
+    /* ===== Responsividad ===== */
+    @media (max-width: 768px) {
+      .gracias-box {
+        padding: 30px 20px;
+      }
+      h1 {
+        font-size: 1.8em;
+      }
+      p {
+        font-size: 1em;
+      }
+      a {
+        font-size: 1em;
+        padding: 10px 16px;
+      }
+    }
+
+    @media (max-width: 480px) {
+      .gracias-box {
+        padding: 20px 15px;
+      }
+      h1 {
+        font-size: 1.5em;
+      }
+      p {
+        font-size: 0.95em;
+      }
+      a {
+        width: 100%;
+        padding: 12px;
+      }
+    }
+  
