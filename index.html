@@ -91,43 +91,54 @@
   </section>
 
   <!-- Contacto -->
-  <section id="contact">
-    <div class="container">
-      <br>
-      <h2>Contáctame</h2>
+ <!-- Contacto -->
+<section id="contact">
+  <div class="container">
+    <br>
+    <h2>Contáctame</h2>
 
-      <!-- Formulario Netlify -->
-      <form name="formulario-contacto" method="POST" data-netlify="true" netlify-honeypot="bot-field" action="/gracias.html">
-        <input type="hidden" name="form-name" value="formulario-contacto">
+    <!-- Formulario Netlify -->
+    <form 
+      name="formulario-contacto" 
+      method="POST" 
+      netlify="true" 
+      netlify-honeypot="bot-field" 
+      action="/gracias.html">
 
-        <!-- Honeypot -->
-        <p style="display:none">
-          <label>No llenar este campo: <input name="bot-field"></label>
-        </p>
+      <!-- Campo oculto obligatorio para Netlify -->
+      <input type="hidden" name="form-name" value="formulario-contacto">
 
-        <input type="text" name="nombre" placeholder="Tu nombre" required>
-        <input type="email" name="email" placeholder="Tu correo electrónico" required>
-        <textarea name="mensaje" placeholder="Escribe tu mensaje" required></textarea>
+      <!-- Honeypot (anti-spam) -->
+      <p style="display:none">
+        <label>No llenar este campo: <input name="bot-field"></label>
+      </p>
 
-        <button type="submit" class="btn">Enviar mensaje</button>
-      </form>
+      <!-- Campos del formulario -->
+      <input type="text" name="nombre" placeholder="Tu nombre" required>
+      <input type="email" name="email" placeholder="Tu correo electrónico" required>
+      <textarea name="mensaje" placeholder="Escribe tu mensaje" required></textarea>
 
-      <br><br>
-      <ul id="contactos">
-        <h2>Sígueme en</h2>
-        <li>
-          <a href="https://www.linkedin.com/in/rosa-mar%C3%ADa-ib%C3%A1%C3%B1ez-ramos-96a4962a1/">
-            <img src="linke.png" alt="LinkedIn" class="icon">
-          </a>
-        </li>
-        <li>
-          <a href="https://github.com/Ross1966">
-            <img src="git.jpg" alt="GitHub" class="icon">
-          </a>
-        </li>
-      </ul>   
-    </div>
-  </section>
+      <!-- Botón -->
+      <button type="submit" class="btn">Enviar mensaje</button>
+    </form>
+
+    <br><br>
+    <ul id="contactos">
+      <h2>Sígueme en</h2>
+      <li>
+        <a href="https://www.linkedin.com/in/rosa-mar%C3%ADa-ib%C3%A1%C3%B1ez-ramos-96a4962a1/">
+          <img src="linke.png" alt="LinkedIn" class="icon">
+        </a>
+      </li>
+      <li>
+        <a href="https://github.com/Ross1966">
+          <img src="git.jpg" alt="GitHub" class="icon">
+        </a>
+      </li>
+    </ul>   
+  </div>
+</section>
+
 
   <footer>
     <div class="container">
